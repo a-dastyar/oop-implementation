@@ -11,11 +11,11 @@ class GridPosition {
         this.y = y;
     }
 
-    GridPosition withNewXMove(int xMove) {
+    GridPosition withXMove(int xMove) {
         return new GridPosition(this.x + xMove, this.y);
     }
 
-    GridPosition withNewYMove(int yMove) {
+    GridPosition withYMove(int yMove) {
         return new GridPosition(this.x, this.y + yMove);
     }
 

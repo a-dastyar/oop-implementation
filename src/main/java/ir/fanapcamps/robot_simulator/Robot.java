@@ -26,9 +26,9 @@ class Robot {
             move -= 1;
         }
         if (this.orientation == Orientation.NORTH || this.orientation == Orientation.SOUTH) {
-            this.gridPosition=this.gridPosition.withNewYMove(move);
+            this.gridPosition=this.gridPosition.withYMove(move);
         }else{
-            this.gridPosition=this.gridPosition.withNewXMove(move);
+            this.gridPosition=this.gridPosition.withXMove(move);
         }
     }
 
