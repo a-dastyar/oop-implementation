@@ -7,7 +7,7 @@ public class Clock {
 
     public Clock(int hour, int minute) {
         this.hour = calcHour(hour, minute);
-        this.minute = calcMinute(minute % 60);
+        this.minute = calcMinute(minute);
     }
 
     private static int calcHour(int hour, int minute) {
